@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "FlowKit Bridge",
+  "version": "1.0",
+  "description": "Bridge between Python app and Google Flow for image generation",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://labs.google/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://labs.google/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
