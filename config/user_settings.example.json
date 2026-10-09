@@ -1,0 +1,14 @@
+{
+    "DEFAULT_AI_PROVIDER": "Gemini (Google)",
+    "Gemini (Google)_API_KEYS": "YOUR_GEMINI_API_KEY_HERE",
+    "Gemini (Google)_MODEL": "models/gemini-2.5-flash",
+    "ASR_DEVICE": "groq",
+    "GROQ_API_KEY": "YOUR_GROQ_API_KEY_HERE",
+    "FLOW_RATIO": "16:9",
+    "FLOW_MODEL": "Nano Banana 2",
+    "FLOW_NUM": "1",
+    "SELECTED_CHROME_PROFILES": [
+        "Default"
+    ],
+    "PROJECT_DIR": ""
+}

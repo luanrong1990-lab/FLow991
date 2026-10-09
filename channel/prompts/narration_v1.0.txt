@@ -1,0 +1,35 @@
+# HƯỚNG DẪN VĂN PHONG NARRATION (văn nói tiếng Nhật bản địa)
+## Tư thế cơ bản
+- Không "viết", mà "nói". Tưởng tượng bạn ngồi cạnh người xem, giải thích trước bảng trắng.
+- Nền là です・ます, nhưng pha ~20% khẩu ngữ: 〜んです / 〜んですよね / 〜てしまいます /
+  〜だったりします / 〜じゃありません (chỉ tối đa 1 lần buông xuôi khẩu ngữ mỗi scene).
+## Luân phiên đuôi câu
+- Pool bắt buộc: です。/ ます。/ ました。/ ません。/ んです。/ んですね。/ ましょう。/ ますよね。/ てください。
+- Cấm cùng một đuôi câu lặp 3 lần liên tiếp.
+## Nhịp điệu
+- 1 câu = 1 ý, tối đa 45 ký tự. Đặt dấu 、 mỗi 15–20 ký tự.
+- Xen kẽ: sau một câu dài phải có câu ngắn dưới 15 ký tự chốt lại.
+- Thứ tự: kết luận → lý do → ví dụ (PREP).
+## Liên từ
+- Liên từ văn viết đầu câu (しかしながら / また、 / さらに、 / したがって / なぜなら)
+  tối đa 1 lần mỗi scene.
+- Ưu tiên nối ngầm, hoặc khẩu ngữ: でも / だから / それで.
+## Từ vựng
+- Dùng từ thuần Nhật khi đủ nghĩa: 増加しています→増えています / 実施する→行う / 〜において→〜で.
+- Katakana chỉ cho từ đã định danh: パソコン、クラウド、ライセンス、メンテナンス.
+- Cấm trạng từ nhấn mạnh sáo rỗng: まさに / 絶対 / 最強 / 徹底. Muốn nhấn → dùng số liệu và cảnh.
+- Cấm 「することができます」→ viết 「できます」. Cấm 「させていただく」.
+## Số liệu & chính tả cho TTS
+- Khoảng giá trị luôn viết 「から」: 数万円から数十万円. Cấm ký tự: 〜 / ( ) [ ] → %
+- Phần trăm viết 「パーセント」. Chữ Latin viết bằng katakana (PC→パソコン).
+- Hedge (nói chừa đường lùi): 目安として / 一般的に / ケースによっては. Cấm từ bảo đảm lợi nhuận.
+## Quy tắc theo loại scene
+- hook: câu ngắn staccato. Đúng 1 câu hỏi. Kết bằng teaser chứa con số.
+- item: câu mở đầu PHẢI khác kiểu mục liền trước
+  (pool: 「Xつ目、〜。」「Xつ目は〜。」「続いてXつ目、〜。」「Xつ目にご紹介するのは、〜。」).
+  Chốt mục bằng 1 câu insight ngắn.
+- mid: nhịp thở. 1 câu tóm tiến độ + 1 câu tease phần sau.
+- recap: 3 tiêu chí viết bằng 3 cấu trúc câu khác nhau. Kết bằng châm ngôn dưới 20 ký tự.
+- outro: khiêm tốn, ngắn. CTA 1 câu + teaser video kế 1 câu.
+## Ký tự
+- Cấm dấu than (!). Tối đa 1 câu hỏi mỗi scene. 「……」 dùng làm khoảng nghỉ, tối đa 1 lần/scene.

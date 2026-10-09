@@ -1,0 +1,79 @@
+[
+  {
+    "id": "CHAR_001",
+    "name": "Kenji Sato",
+    "age": "58-year-old Japanese man",
+    "gender": "male",
+    "face": "Japanese features, warm brown eyes, slightly weathered face, subtle forehead lines, calm intelligent expression, gentle confident smile",
+    "hair": "short black hair with natural gray at the temples, neatly combed, slightly receding hairline",
+    "clothing": "dark navy business casual jacket over a light blue button-up shirt, dark trousers, simple black leather shoes, understated Japanese professional style",
+    "body_type": "average height, medium build, slightly broad shoulders, upright but relaxed posture",
+    "personality": "calm, practical, thoughtful, trustworthy, knowledgeable, friendly, slightly curious, composed",
+    "visual_style": "Japanese cinematic documentary realism, photorealistic, natural soft lighting, realistic skin texture, muted warm colors, subtle film grain, sophisticated television documentary aesthetic",
+    "custom_tags": [],
+    "saved_at": "2026-09-17T15:59:44.467821"
+  },
+  {
+    "id": "CHAR_003",
+    "name": "Angry Crowd Member",
+    "age": "45-year-old",
+    "gender": "man",
+    "face": "Stern, self-righteous expression with a deeply furrowed brow, fierce dark eyes filled with judgment, and a coarse dark beard.",
+    "hair": "Short, thick dark hair with hints of grey at the temples.",
+    "clothing": "A dark brown wool tunic with a thick leather belt, hands covered in dust, clutching a heavy stone.",
+    "body_type": "medium",
+    "personality": "Confrontational, angry, judgmental, and aggressive.",
+    "visual_style": "cinematic",
+    "custom_tags": [
+      "angry mob",
+      "holding a stone",
+      "judgmental",
+      "first-century Judea",
+      "confrontational",
+      "photorealistic"
+    ],
+    "saved_at": "2026-09-17T10:51:17.573344"
+  },
+  {
+    "id": "CHAR_002",
+    "name": "The Accused Woman",
+    "age": "25-year-old",
+    "gender": "woman",
+    "face": "Tear-streaked and frightened with dusty Middle Eastern features, dark expressive eyes wide with fear, and trembling lips.",
+    "hair": "Long, disheveled dark hair partially covered by a worn, dusty grey headscarf.",
+    "clothing": "Tattered, dirt-stained dark grey and brown robes, looking disarranged from being dragged.",
+    "body_type": "slim",
+    "personality": "Terrified, vulnerable, humbled, and deeply relieved.",
+    "visual_style": "cinematic",
+    "custom_tags": [
+      "biblical era",
+      "weeping",
+      "dusty robes",
+      "first-century Judea",
+      "vulnerable",
+      "photorealistic"
+    ],
+    "saved_at": "2026-09-17T10:51:17.572350"
+  },
+  {
+    "id": "CHAR_001",
+    "name": "Jesus of Nazareth",
+    "age": "33-year-old",
+    "gender": "man",
+    "face": "Warm, compassionate Middle Eastern features with kind, understanding brown eyes, a gentle and serene expression, weathered skin from a life outdoors, and a neatly trimmed short beard and mustache.",
+    "hair": "Shoulder-length, wavy dark brown hair, parted in the middle.",
+    "clothing": "A simple, dusty off-white linen tunic, draped with a light blue mantle, and worn leather sandals.",
+    "body_type": "slim",
+    "personality": "Gentle, wise, deeply peaceful, and compassionate.",
+    "visual_style": "cinematic",
+    "custom_tags": [
+      "first-century Judea",
+      "biblical figure",
+      "compassionate eyes",
+      "historical tunic",
+      "gentle savior",
+      "photorealistic"
+    ],
+    "saved_at": "2026-09-17T10:51:17.570351"
+  }
+]

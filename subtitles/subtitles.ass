@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karaoke,Arial,80,&H0000FFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,10,10,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.26,Karaoke,,0,0,0,,When you think of historical figures who changed the world, you often think of conquerors,
+Dialogue: 0,0:00:04.64,0:00:07.44,Karaoke,,0,0,0,,emperors, or revolutionaries who ruled with power and force.
+Dialogue: 0,0:00:07.94,0:00:09.52,Karaoke,,0,0,0,,But then there's Jesus of Nazareth.
+Dialogue: 0,0:00:09.92,0:00:14.34,Karaoke,,0,0,0,,His entire life and legacy weren't built on military might, but on something much quieter,
+Dialogue: 0,0:00:14.76,0:00:16.74,Karaoke,,0,0,0,,yet infinitely more powerful gentleness.
+Dialogue: 0,0:00:17.12,0:00:21.88,Karaoke,,0,0,0,,If you look at the stories of his life, his approach to people was always incredibly tender.
+Dialogue: 0,0:00:22.52,0:00:26.90,Karaoke,,0,0,0,,In a world that was harsh, deeply divided, and ruled by the iron fist of the Roman Empire,
+Dialogue: 0,0:00:27.30,0:00:29.08,Karaoke,,0,0,0,,Jesus chose a completely different path.
+Dialogue: 0,0:00:29.64,0:00:31.18,Karaoke,,0,0,0,,He didn't align himself with the powerful.
+Dialogue: 0,0:00:31.42,0:00:35.62,Karaoke,,0,0,0,,Instead, he spent his time with the outcasts, the broken and the forgotten.
+Dialogue: 0,0:00:36.38,0:00:38.14,Karaoke,,0,0,0,,Think about how he interacted with people.
+Dialogue: 0,0:00:38.44,0:00:40.62,Karaoke,,0,0,0,,When others wanted to condemn, he offered grace.
+Dialogue: 0,0:00:41.16,0:00:44.86,Karaoke,,0,0,0,,When a crowd wanted to stone a woman, he stepped in with quiet wisdom,
+Dialogue: 0,0:00:45.30,0:00:48.16,Karaoke,,0,0,0,,diffusing the anger with a simple challenge to their own hearts.
+Dialogue: 0,0:00:48.28,0:00:51.74,Karaoke,,0,0,0,,He spoke of love, forgiveness, and turning the other cheek,
+Dialogue: 0,0:00:51.96,0:00:56.00,Karaoke,,0,0,0,,ideas that were absolutely radical back then, and honestly still are today.
+Dialogue: 0,0:00:56.70,0:01:01.20,Karaoke,,0,0,0,,Even in his final moments, when he faced betrayal and a painful death, he didn't lash out.
+Dialogue: 0,0:01:01.66,0:01:02.74,Karaoke,,0,0,0,,He didn't call for vengeance.
+Dialogue: 0,0:01:03.00,0:01:05.72,Karaoke,,0,0,0,,Instead, he prayed for those who were hurting him.
+Dialogue: 0,0:01:06.36,0:01:08.60,Karaoke,,0,0,0,,His life teaches us that gentleness isn't weakness.
+Dialogue: 0,0:01:08.72,0:01:11.14,Karaoke,,0,0,0,,In fact, it's the ultimate form of strength.
+Dialogue: 0,0:01:11.38,0:01:17.50,Karaoke,,0,0,0,,It takes immense power to control our anger, to meet hatred with love, and to choose peace in a chaotic world.
+Dialogue: 0,0:01:18.14,0:01:23.26,Karaoke,,0,0,0,,So, maybe the question for us today is, how can we bring a little bit of that gentleness into our own lives?
+Dialogue: 0,0:01:23.26,0:01:25.84,Karaoke,,0,0,0,,in a world that's so loud and confrontational,
+Dialogue: 0,0:01:26.26,0:01:28.90,Karaoke,,0,0,0,,maybe a quiet, gentle approach is exactly what we need.
+Dialogue: 0,0:01:29.94,0:01:31.84,Karaoke,,0,0,0,,Thanks for spending a few minutes with me today.
+Dialogue: 0,0:01:32.38,0:01:34.00,Karaoke,,0,0,0,,Let me know your thoughts in the comments below.

@@ -1,0 +1,36 @@
+{
+    "style_version": "1.0",
+    "name": "静かに稼ぐ研究室",
+    "audience": "Salaryman và người tự doanh Nhật Bản, 30–55 tuổi",
+    "pillars": {
+        "P1": "副業・起業アイデア",
+        "P2": "資産防衛・マクロ",
+        "P3": "実例・ストーリー",
+        "P4": "お金の習慣・行動"
+    },
+    "palette": {
+        "navy": "#1F3864",
+        "red": "#C81E28",
+        "yellow": "#FFD400",
+        "cream": "#FFF4D6"
+    },
+    "opening": "こんにちは。データと実例で『本当に使えるお金の話』だけを届けるチャンネル、静かに稼ぐ研究室です。",
+    "disclaimer": "この動画は情報整理と紹介が目的で、投資勧誘や利益の保証ではありません。成果は地域と運営次第です。",
+    "style_lock": "flat vector cartoon illustration, clean thick outlines, japanese business youtube style, soft cel shading, limited palette navy #1F3864 red #C81E28 yellow #FFD400 cream #FFF4D6, simple uncluttered background, composition keeps bottom-left quarter empty for character overlay, 16:9",
+    "negative": "no text, no letters, no numbers, no logos, no watermark, no photorealism, no 3d render, no extra characters",
+    "mascot": "japanese businessman late 50s, silver gray side-part hair, round friendly face, navy suit #1F3864, white shirt, green tie",
+    "poses": [
+        "surprised",
+        "point",
+        "smile",
+        "think",
+        "sleep"
+    ],
+    "font_family": "Noto Sans JP",
+    "speed": 0.95,
+    "bumper_seconds": 2,
+    "max_sentence": 45,
+    "max_telop": 13,
+    "max_title": 48,
+    "max_thumb_line": 14
+}

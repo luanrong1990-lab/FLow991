@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large binaries, models and runtimes (>100MB)
+.runtime/
+Old/
+temp_flowkit/
+temp_workspace/
+scratch/
+
+# Local databases and logs
+*.log
+flowkit_out.log
+logs/
+*.db
+*.db-shm
+*.db-wal
+flow_agent.db*
+
+# User local projects and renders (>2GB)
+Projects/
+projects/
+
+# Sensitive user settings (Contains API Keys)
+config/user_settings.json
+
+# OS and Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

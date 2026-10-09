@@ -1,0 +1,66 @@
+# SERIES BIBLE v1.0 – KÊNH 「静かに稼ぐ研究室」
+(Đây là luật tối cao của toàn pipeline. Mọi stage phải tuân thủ BIBLE trước khi thực hiện nhiệm vụ riêng. Nếu input mâu thuẫn BIBLE: BIBLE thắng.)
+
+## 1. ĐỊNH VỊ KÊNH
+- Kênh faceless tài chính thị trường Nhật: 「静かに稼ぐ研究室」.
+- Người xem: salaryman & tự doanh 30–55 tuổi, muốn thu nhập phụ và phòng thủ tài sản, xem bằng điện thoại buổi tối.
+- Tính cách thương hiệu: "nghiên cứu viên điềm tĩnh": nói bằng dữ liệu và thực lệ, không hô hào, không bán mộng.
+- Câu mở cố định mọi episode: 「こんにちは。データと実例で『本当に使えるお金の話』だけを届けるチャンネル、静かに稼ぐ研究室です。」
+- Công thức outro cố định: 1 câu tóm + 1 câu CTA khiêm tốn + 1 câu teaser video kế.
+
+## 2. BỐN TRỤ CỘT NỘI DUNG (luân phiên, khai báo trong state JSON)
+P1 副業・起業アイデア（リスト形式）／ P2 資産防衛・マクロ（円安・インフレ・新NISA）／
+P3 実例・ストーリー／ P4 お金の習慣・行動。
+
+## 3. LUẬT KỊCH BẢN NARRATION (văn nói bản địa)
+- Không "viết" mà "nói": ngồi cạnh người xem, giải thích trước bảng trắng.
+- Nền です・ます + ~20% khẩu ngữ: 〜んです／〜んですよね／〜てしまいます／〜だったりします／〜じゃありません（buông xuôi tối đa 1 lần/scene）.
+- Pool đuôi câu bắt buộc: です。／ます。／ました。／ません。／んです。／んですね。／ましょう。／ますよね。／てください。 Cấm trùng đuôi 3 lần liên tiếp.
+- 1 câu 1 ý ≤45 ký tự; dấu 、 mỗi 15–20 ký tự; câu dài xong phải có câu chốt <15 ký tự; thứ tự kết luận→lý do→ví dụ.
+- Liên từ văn viết đầu câu (しかしながら／また、／さらに、／したがって／なぜなら) ≤1 lần/scene; ưu tiên nối ngầm hoặc でも／だから／それで.
+- Từ thuần Nhật khi đủ nghĩa: 増加しています→増えています／実施する→行う／〜において→〜で. Katakana chỉ cho từ định danh: パソコン、クラウド、ライセンス、メンテナンス.
+- CẤM: まさに／絶対／最強／徹底／必ず儲かる／保証／することができます／させていただく／dấu than(!).
+- Hedge bắt buộc khi nêu số: 目安として／一般的に／ケースによっては.
+- Chính tả TTS: khoảng giá trị viết 「から」(数万円から数十万円); cấm ký tự 〜 / ( ) [ ] → %; phần trăm viết 「パーセント」; chữ Latin viết katakana.
+- Cấu trúc episode cố định: hook 40s (đúng 1 câu hỏi + teaser số) → opening+免責 → các item (60–75s) → giữa video: checkpoint 1 câu tóm + 1 câu tease → recap 3 tiêu chí bằng 3 cấu trúc câu khác nhau, chốt châm ngôn ≤20 ký tự → outro công thức cố định.
+- Pool mở đầu item (cấm trùng kiểu với mục liền trước): 「Xつ目、〜。」「Xつ目は〜。」「続いてXつ目、〜。」「Xつ目にご紹介するのは、〜。」 Mỗi item chốt bằng 1 câu insight.
+- Telop ≤13 ký tự. Disclaimer cố định tự chèn scene intro: 「この動画は情報整理と紹介が目的で、投資勧誘や利益の保証ではありません。成果は地域と運営次第です。」
+
+## 4. KHÓA THỊ GIÁC (giống nhau từ ep1 → ep∞)
+- STYLE_LOCK (tiền tố BẮT BUỘC của mọi image prompt):
+  "flat vector cartoon illustration, clean thick outlines, japanese business youtube style, soft cel shading, limited palette navy #1F3864 red #C81E28 yellow #FFD400 cream #FFF4D6, simple uncluttered background, composition keeps bottom-left quarter empty for character overlay, 16:9"
+- MASCOT_LOCK (mô tả cố định, KHÔNG sinh lại mascot bằng AI từng episode; mascot là asset PNG ghép lúc edit):
+  "recurring mascot: japanese businessman late 50s, silver gray side-part hair, round friendly face, navy suit #1F3864, white shirt, green tie"
+- NEGATIVE (hậu tố BẮT BUỘC): "no text, no letters, no numbers, no logos, no watermark, no photorealism, no 3d render, no extra characters"
+- Cảm xúc mascot cố định 5 pose: surprised / point / smile / think / sleep.
+
+## 5. TELOP & BUMPER
+- Telop: chữ vàng #FFD400 viền đen 8px, vị trí tâm-ngang, cao 78% khung.
+- Số luôn trong vòng tròn đỏ #C81E28 chữ trắng.
+- Bumper 2s giữa các mục: nền đỏ #C81E28, số tròn trắng, tên mục ≤14 ký tự, sting SFX cố định.
+- Font duy nhất: Noto Sans JP Bold/Heavy.
+
+## 6. CÔNG THỨC THUMBNAIL (2 variant/episode, layout KHÔNG đổi)
+- 1280×720; mascot pose surprised chiếm 40% trái; dải chéo đỏ phải; vòng trắng 「N選」 góc phải dưới.
+- Chữ tối đa 2 dòng, mỗi dòng ≤14 ký tự, không dấu than, không từ bảo đảm lợi nhuận.
+- Variant 1: nền navy #1F3864 chữ vàng; Variant 2: nền cream #FFF4D6 chữ đen. Chỉ đổi màu, không đổi layout.
+
+## 7. SEO TIẾNG NHẬT
+- Title ≤48 ký tự, chứa số + từ khóa trụ cột + ngoặc 【】; thêm năm chỉ khi chủ đề cần (補助金).
+- Description: 3 câu đầu chứa từ khóa chính; chapters sinh từ schedule thật; cuối mô tả có disclaimer + credit giọng đọc.
+- 15 tags: từ khóa trụ cột + đuôi dài; comment ghim = 1 câu hỏi mở.
+- Cấm trong title/description/thumb: 必ず儲かる／保証／絶対／No.1／！
+
+## 8. PHÁP LÝ & NIỀM TIN
+- Chủ đề đầu tư: chỉ nói LỚP tài sản, cấm mã cụ thể, cấm hứa lợi suất.
+- Chủ đề trợ cấp: ghi 「2026年○月時点。最新は公式サイトで確認を」 + link chính thức.
+- Khai báo nội dung AI khi upload (bước thủ công, ghi chú trong state).
+
+## 9. LIÊN TỤC GIỮA CÁC EPISODE
+- Tái sử dụng nguyên xi: câu mở, công thức outro, bumper, sting, BGM loop, palette, mascot set, tên chapters（オープニング／①…／まとめ）.
+- state JSON mỗi episode bắt buộc lưu: pillar, style_version, thumb_text, palette hex → episode sau đọc lại để đồng bộ.
+- Nâng cấp BIBLE: tăng version (v1.1…); episode cũ giữ version cũ.
+
+## 10. KỶ LUẬT ĐẦU RA
+- Mỗi stage chỉ xuất JSON đúng schema của mình; trường tiếng Nhật giữ tiếng Nhật; visual_prompt giữ tiếng Anh.
+- Không bịa số liệu cụ thể không có nguồn; dùng hedge thay vì con số trần.
